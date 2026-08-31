@@ -1,0 +1,15 @@
+{
+  "acceptance_source": "config:qa.acceptance_criteria",
+  "acceptance_path": null,
+  "acceptance_criteria": {
+    "required_columns": [
+      "trial_id",
+      "condition",
+      "reported_duration_s",
+      "missing_response",
+      "technical_timing_ok"
+    ],
+    "expected_trial_count": 4,
+    "triggers_required": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "generator_version": "pixel-translation-v1",
+  "size_px": 512,
+  "fps": 60,
+  "duration_s": 30,
+  "temporal_frequency_hz": 4,
+  "frames_per_cycle": 15,
+  "phase_step_cycles": 0.06666666666666667,
+  "carrier_period_px": 32,
+  "gaussian_sigma_px": 25.6,
+  "patch_centers_px": [
+    [
+      -128,
+      0
+    ],
+    [
+      128,
+      0
+    ],
+    [
+      0,
+      -128
+    ],
+    [
+      0,
+      128
+    ]
+  ],
+  "digital_modulation": 0.4,
+  "physical_calibration": false,
+  "files": {
+    "left": {
+      "movie_sha256": "695f9a53664829ae118fd968db9623851c6aa5b412f56496f94cceae85c3147c",
+      "bytes": 1791762,
+      "decoded_frame_count": 1800,
+      "decoded_fps": 60.0,
+      "max_rgb_encoding_error": 5,
+      "direction_mse": 0.19320704142252604,
+      "opposite_direction_mse": 82.76796544392904,
+      "static_sha256": "bd0dc0a49ff2fdf18796928687017afe51525f731a2cae097427b1abdb2d8fba",
+      "final_frame_index": 1799,
+      "final_frame_pts_s": 29.983333333333334
+    },
+    "right": {
+      "movie_sha256": "0f1f4d5d2a0e501bf077b1ea157b9da5152fd3c72953530d832f70aae35f15bb",
+      "bytes": 1812321,
+      "decoded_frame_count": 1800,
+      "decoded_fps": 60.0,
+      "max_rgb_encoding_error": 5,
+      "direction_mse": 0.19418894449869792,
+      "opposite_direction_mse": 82.80042368570963,
+      "static_sha256": "45b2951788841027a0c7155babbba141e4484a3ad6c4adcba57eeb3d51712c8a",
+      "final_frame_index": 1799,
+      "final_frame_pts_s": 29.983333333333334
+    }
+  }
+}

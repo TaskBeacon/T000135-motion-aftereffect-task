@@ -1,0 +1,221 @@
+subinfo_fields:
+- name: subject_id
+  type: int
+  constraints:
+    min: 101
+    max: 999
+    digits: 3
+subinfo_mapping:
+  subject_id: 被试编号（3位数字）
+  Participant Information: 被试信息
+  registration_failed: 登记失败
+  registration_successful: 登记成功
+  invalid_input: '{field} 输入无效'
+window:
+  size:
+  - 1280
+  - 800
+  units: pix
+  screen: 0
+  bg_color: '#808080'
+  fullscreen: false
+task:
+  task_name: Motion Aftereffect Task
+  language: Chinese
+  voice_enabled: false
+  voice_name: zh-CN-YunyangNeural
+  save_path: ./outputs/human
+  total_blocks: 1
+  total_trials: 4
+  trial_per_block: 4
+  conditions:
+  - left
+  - right
+  condition_weights: null
+  diagnostic: true
+  key_list:
+  - space
+  - n
+  report_keys:
+  - space
+  - n
+  ceased_key: space
+  none_key: n
+  continue_key: space
+  overall_seed: 135031
+  seed_mode: same_across_sub
+  hide_cursor: true
+  delta: 0
+  temporal_frequency_hz: 4
+  max_frame_gap_s: 0.05
+timing:
+  fixation_duration: 0.1
+  adaptation_duration: 0.3
+  test_duration: 0.5
+  recovery_duration: 0.1
+stimuli:
+  instruction:
+    type: text
+    font: SimHei
+    text: '软件诊断运行：共4次，不用于测量人类运动后效。
+
+
+      按空格开始。'
+    color: '#141414'
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  fixation:
+    type: text
+    font: SimHei
+    text: +
+    color: '#141414'
+    height: 12
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  block_break:
+    type: text
+    font: SimHei
+    text: '本组完成，可以休息。
+
+
+      请保持显示设置和观察距离不变。
+
+      准备好后按空格继续。'
+    color: '#141414'
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  good_bye:
+    type: text
+    font: SimHei
+    text: '任务完成，谢谢参与。
+
+
+      按空格结束并保存数据。'
+    color: '#141414'
+    height: 24
+    wrapWidth: 1100
+    pos:
+    - 0
+    - 0
+    units: pix
+  patch_0:
+    type: grating
+    tex: sin
+    mask: gauss
+    size:
+    - 256
+    - 256
+    sf: 0.03125
+    phase:
+    - 0
+    - 0
+    contrast: 0.4
+    maskParams:
+      sd: 5
+    texRes: 1024
+    pos:
+    - -128
+    - 0
+    units: pix
+    autoLog: false
+  patch_1:
+    type: grating
+    tex: sin
+    mask: gauss
+    size:
+    - 256
+    - 256
+    sf: 0.03125
+    phase:
+    - 0
+    - 0
+    contrast: 0.4
+    maskParams:
+      sd: 5
+    texRes: 1024
+    pos:
+    - 128
+    - 0
+    units: pix
+    autoLog: false
+  patch_2:
+    type: grating
+    tex: sin
+    mask: gauss
+    size:
+    - 256
+    - 256
+    sf: 0.03125
+    phase:
+    - 0
+    - 0
+    contrast: 0.4
+    maskParams:
+      sd: 5
+    texRes: 1024
+    pos:
+    - 0
+    - 128
+    units: pix
+    autoLog: false
+  patch_3:
+    type: grating
+    tex: sin
+    mask: gauss
+    size:
+    - 256
+    - 256
+    sf: 0.03125
+    phase:
+    - 0
+    - 0
+    contrast: 0.4
+    maskParams:
+      sd: 5
+    texRes: 1024
+    pos:
+    - 0
+    - -128
+    units: pix
+    autoLog: false
+triggers:
+  map:
+    experiment_start: 1
+    fixation_onset: 10
+    adaptation_onset: 20
+    static_onset: 30
+    motion_ceased: 31
+    no_motion: 32
+    omission: 39
+    recovery_onset: 40
+    experiment_end: 99
+  driver:
+    type: mock
+  policy:
+    strict: false
+  timing:
+    post_delay_s: 0.0
+sim:
+  output_dir: outputs/scripted_sim
+  seed: 135
+  participant_id: synthetic135
+  session_id: synthetic135-scripted_sim
+  log_path: outputs/scripted_sim/events.jsonl
+  policy: warn
+  default_rt_s: 0.15
+  clamp_rt: false
+  responder:
+    type: scripted
+    kwargs:
+      rt_s: 0.15

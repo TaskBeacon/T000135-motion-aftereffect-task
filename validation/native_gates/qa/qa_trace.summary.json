@@ -1,0 +1,22 @@
+{
+  "trials": 4,
+  "motion_ceased_reports": 2,
+  "no_apparent_motion_reports": 1,
+  "missing_reports": 1,
+  "invalid_motion_trials": 0,
+  "by_direction": {
+    "left": {
+      "trials": 2,
+      "valid_reports": 1,
+      "mean_reported_duration_s": 0.15,
+      "invalid_motion": 0
+    },
+    "right": {
+      "trials": 2,
+      "valid_reports": 2,
+      "mean_reported_duration_s": 0.075,
+      "invalid_motion": 0
+    }
+  },
+  "interpretation": "Self-reports only; no accuracy score, calibrated threshold, or proof of an aftereffect."
+}

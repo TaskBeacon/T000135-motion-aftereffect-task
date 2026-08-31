@@ -1,0 +1,11 @@
+3.3928 	WARNING 	Monitor specification not found. Creating a temporary one...
+4.6861 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+Traceback (most recent call last):
+  File "E:\Taskbeacon\tmp\at135-native-movie-canary.py", line 32, in <module>
+    unit.show(duration=30,sync_to_movie=True)
+  File "E:\Taskbeacon/psyflow-movie135-publish\psyflow\StimUnit.py", line 638, in show
+    return show_synced_movie(self, duration, onset_trigger, offset_trigger)
+  File "E:\Taskbeacon/psyflow-movie135-publish\psyflow\movie.py", line 18, in show_synced_movie
+    raise ValueError('sync_to_movie requires noAudio=True and loop=False')
+ValueError: sync_to_movie requires noAudio=True and loop=False
+5.8145 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

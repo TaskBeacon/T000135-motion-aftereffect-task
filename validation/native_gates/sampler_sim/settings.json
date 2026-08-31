@@ -1,0 +1,66 @@
+{
+  "size": [
+    1280,
+    800
+  ],
+  "units": "pix",
+  "screen": 0,
+  "bg_color": "#808080",
+  "fullscreen": false,
+  "total_blocks": 1,
+  "total_trials": 4,
+  "key_list": [
+    "space",
+    "n"
+  ],
+  "conditions": [
+    "left",
+    "right"
+  ],
+  "condition_weights": null,
+  "block_seed": [
+    24004
+  ],
+  "seed_mode": "same_across_sub",
+  "overall_seed": 135031,
+  "log_file": "E:\\Taskbeacon\\T000135-motion-aftereffect-task\\outputs\\sampler_sim\\psychopy.log",
+  "res_file": "E:\\Taskbeacon\\T000135-motion-aftereffect-task\\outputs\\sampler_sim\\sim_trace.csv",
+  "json_file": "E:\\Taskbeacon\\T000135-motion-aftereffect-task\\outputs\\sampler_sim\\settings.json",
+  "save_path": "./outputs/human",
+  "task_name": "Motion Aftereffect Task",
+  "trials_per_block": 4,
+  "trial_per_block": 4,
+  "language": "Chinese",
+  "voice_enabled": false,
+  "voice_name": "zh-CN-YunyangNeural",
+  "diagnostic": true,
+  "report_keys": [
+    "space",
+    "n"
+  ],
+  "ceased_key": "space",
+  "none_key": "n",
+  "continue_key": "space",
+  "hide_cursor": true,
+  "delta": 0,
+  "temporal_frequency_hz": 4,
+  "max_frame_gap_s": 0.05,
+  "fixation_duration": 0.1,
+  "adaptation_duration": 0.3,
+  "test_duration": 0.5,
+  "recovery_duration": 0.1,
+  "subject_id": 135,
+  "triggers": {
+    "experiment_start": 1,
+    "fixation_onset": 10,
+    "adaptation_onset": 20,
+    "static_onset": 30,
+    "motion_ceased": 31,
+    "no_motion": 32,
+    "omission": 39,
+    "recovery_onset": 40,
+    "experiment_end": 99
+  },
+  "frame_time_seconds": 0.01681430998723954,
+  "win_fps": 59.87461062543711
+}

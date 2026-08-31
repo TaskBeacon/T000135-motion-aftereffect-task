@@ -1,0 +1,7 @@
+{
+  "source": "isolated unpublished PsyFlow movie sync candidate",
+  "directions": [],
+  "status": "fail",
+  "error": "RuntimeError('Movie first-frame decode timed out')",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\Taskbeacon\\tmp\\at135-native-movie-canary.py\", line 32, in <module>\n    unit.show(duration=30,sync_to_movie=True,expected_movie_fps=60)\n  File \"E:\\Taskbeacon/psyflow-movie135-publish\\psyflow\\StimUnit.py\", line 639, in show\n    return show_synced_movie(self, duration, onset_trigger, offset_trigger, expected_movie_fps)\n  File \"E:\\Taskbeacon/psyflow-movie135-publish\\psyflow\\movie.py\", line 37, in show_synced_movie\n    raise RuntimeError('Movie first-frame decode timed out')\nRuntimeError: Movie first-frame decode timed out\n"
+}

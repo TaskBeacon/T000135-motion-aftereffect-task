@@ -1,0 +1,23 @@
+{
+  "mode": "human",
+  "subject_dialog": "not assessed: synthetic135 injected after actual Qt automation timed out",
+  "scope": "real human branch initialize_exp, StimBank preload and first instruction shader draw/flip; stopped at checkpoint",
+  "dialogs": [],
+  "status": "pass",
+  "window_size": [
+    1280,
+    800
+  ],
+  "subject_id": 135,
+  "actual_preloaded_types": {
+    "instruction": "TextStim",
+    "fixation": "TextStim",
+    "block_break": "TextStim",
+    "good_bye": "TextStim",
+    "patch_0": "GratingStim",
+    "patch_1": "GratingStim",
+    "patch_2": "GratingStim",
+    "patch_3": "GratingStim"
+  },
+  "instruction_actual_flip": 0.6656420999206603
+}

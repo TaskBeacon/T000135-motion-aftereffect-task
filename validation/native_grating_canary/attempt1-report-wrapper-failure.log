@@ -1,0 +1,25 @@
+2.6094 	WARNING 	Monitor specification not found. Creating a temporary one...
+Traceback (most recent call last):
+  File "E:\Taskbeacon\tmp\at135-native-grating-canary.py", line 31, in <module>
+    report['dynamic'].append({'direction':direction,**active.to_dict(),**test.to_dict(),
+TypeError: 'StimUnit' object is not a mapping
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Taskbeacon\tmp\at135-native-grating-canary.py", line 41, in <module>
+    win.close();(out/'evidence.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+  File "D:\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "D:\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "D:\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "D:\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StimUnit is not JSON serializable
+35.5169 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

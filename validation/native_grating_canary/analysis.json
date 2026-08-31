@@ -1,0 +1,116 @@
+{
+  "kind": "actual PsychoPy shader back-buffer fit; not physical photometry",
+  "fits": [
+    {
+      "input_phase": 0,
+      "measured_phase_cycles": -0.00041768154258069775,
+      "cyclic_phase_error": -0.00041768154258070567,
+      "spatial_frequency_cycles_per_px": 0.031254256562124896,
+      "sigma_x_px": 25.62044427745859,
+      "sigma_y_px": 25.595450378077594,
+      "center_offset_px": [
+        -0.002069763778811442,
+        -8.051493847979945e-09
+      ],
+      "mean_rgb": 127.807564256732,
+      "amplitude_rgb": 51.12252919527688,
+      "digital_contrast": 0.4009610132962893,
+      "rmse_rgb": 0.31077748358906293,
+      "max_error_rgb": 1.8042460004648717,
+      "sha256": "870673f1a1037e1862cc32d642b1372c2a859dcddb94bc2123fab8338993c014"
+    },
+    {
+      "input_phase": 0.25,
+      "measured_phase_cycles": 0.24962521730975296,
+      "cyclic_phase_error": -0.00037478269024704414,
+      "spatial_frequency_cycles_per_px": 0.031248693735771053,
+      "sigma_x_px": 25.624134435624732,
+      "sigma_y_px": 25.615810156492365,
+      "center_offset_px": [
+        -0.003797027912162299,
+        8.612949455877608e-09
+      ],
+      "mean_rgb": 127.82256699941519,
+      "amplitude_rgb": 51.08400287296724,
+      "digital_contrast": 0.40065884606248814,
+      "rmse_rgb": 0.3004676486859528,
+      "max_error_rgb": 1.1743981736400997,
+      "sha256": "b3e2de2075f2565ffa3f782edd4592f687bf8c0e44ce5fb7295002096be76e6e"
+    },
+    {
+      "input_phase": 0.5,
+      "measured_phase_cycles": 0.49926489670491037,
+      "cyclic_phase_error": -0.0007351032950896341,
+      "spatial_frequency_cycles_per_px": 0.03125049949399949,
+      "sigma_x_px": 25.567741364566675,
+      "sigma_y_px": 25.601642178312105,
+      "center_offset_px": [
+        0.007815197519532156,
+        4.01725084126492e-09
+      ],
+      "mean_rgb": 127.81697811675778,
+      "amplitude_rgb": 51.142381138064714,
+      "digital_contrast": 0.4011167148083507,
+      "rmse_rgb": 0.30172008557154256,
+      "max_error_rgb": 1.179756679746788,
+      "sha256": "dd7a19a2c2e5c428de0c4a784e91ddd88674f6cb718cc6b984d665e56d5ba995"
+    },
+    {
+      "input_phase": 0.75,
+      "measured_phase_cycles": 0.7493461616911733,
+      "cyclic_phase_error": -0.0006538383088267041,
+      "spatial_frequency_cycles_per_px": 0.031249909837124817,
+      "sigma_x_px": 25.624248875243087,
+      "sigma_y_px": 25.61751031976947,
+      "center_offset_px": [
+        0.00568583534195959,
+        1.8352661105837e-08
+      ],
+      "mean_rgb": 127.81431630287119,
+      "amplitude_rgb": 51.07494582311826,
+      "digital_contrast": 0.40058781037739816,
+      "rmse_rgb": 0.30527278479377357,
+      "max_error_rgb": 1.0354576665846764,
+      "sha256": "563054f5dda227cf6ccad4008a1b56e246f0bc3968386c2c38ece5540762c97a"
+    }
+  ],
+  "dynamic": [
+    {
+      "direction": "left",
+      "phase_slope_cycles_per_s": -4.000000000000001,
+      "frame_count": 1801,
+      "last_phase_sample_s": 29.997956999810413,
+      "max_flip_interval_s": 0.02091150009073317,
+      "intervals_over_25ms": 0,
+      "adaptation_to_static_s": 30.015868099872023,
+      "last_drift_to_static_s": 0.01746960007585585,
+      "late_close": false,
+      "static_equals_actual_final_phase": true
+    },
+    {
+      "direction": "right",
+      "phase_slope_cycles_per_s": 3.9999999999999996,
+      "frame_count": 1801,
+      "last_phase_sample_s": 29.99866189993918,
+      "max_flip_interval_s": 0.019094299990683794,
+      "intervals_over_25ms": 0,
+      "adaptation_to_static_s": 30.01486930018291,
+      "last_drift_to_static_s": 0.01611290010623634,
+      "late_close": false,
+      "static_equals_actual_final_phase": true
+    }
+  ],
+  "checks": {
+    "two_directions_present": true,
+    "four_phases_error_under_0_02cycles": true,
+    "fitted_sf_within_1percent": true,
+    "fitted_sigma_within_1px": true,
+    "contrast_within_0_02": true,
+    "exposure_30s_within_50ms": true,
+    "max_flip_gap_under_50ms": true,
+    "no_late_close": true,
+    "transition_under_50ms": true,
+    "static_phase_preserved": true
+  },
+  "status": "pass"
+}

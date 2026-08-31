@@ -1,0 +1,8 @@
+2.5127 	WARNING 	Monitor specification not found. Creating a temporary one...
+Traceback (most recent call last):
+  File "E:\Taskbeacon\tmp\at135-native-grating-canary.py", line 29, in <module>
+    ImageGrab.grab(bbox=(x,y,x+w,y+h)).save(out/f'phase_{phase}_os.png')
+  File "D:\Python310\lib\site-packages\PIL\ImageGrab.py", line 61, in grab
+    offset, size, data = Image.core.grabscreen_win32(
+OSError: screen grab failed
+4.8562 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\Taskbeacon\tmp\at135-human-startup.py", line 7, in <module>
+    from psychopy.gui.qtgui import QtCore
+ImportError: cannot import name 'QtCore' from 'psychopy.gui.qtgui' (D:\Python310\lib\site-packages\psychopy\gui\qtgui.py)

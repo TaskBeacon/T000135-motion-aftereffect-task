@@ -1,0 +1,22 @@
+{
+  "id": "Harris1981",
+  "title": "Moving and the motion after-effect",
+  "authors": [],
+  "year": 1981,
+  "journal": "Nature",
+  "doi_or_url": "https://www.nature.com/articles/293139a0",
+  "citation_count": 0,
+  "is_high_impact": false,
+  "open_access": false,
+  "used_for": [
+    "historical_primary_source"
+  ],
+  "parameter_bindings": {},
+  "notes": "Provided reference. Abstract read; full scanned methods not locally read. Operational static-duration parameters use the original Methods of Bex1999 as explicitly documented.",
+  "source_kind": "url",
+  "source_locator": "https://www.nature.com/articles/293139a0",
+  "attachments": {
+    "paper_pdf": null,
+    "methods_path": null
+  }
+}

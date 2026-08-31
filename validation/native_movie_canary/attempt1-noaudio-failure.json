@@ -1,0 +1,7 @@
+{
+  "source": "isolated unpublished PsyFlow movie sync candidate",
+  "directions": [],
+  "status": "fail",
+  "error": "ValueError('sync_to_movie requires noAudio=True and loop=False')",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\Taskbeacon\\tmp\\at135-native-movie-canary.py\", line 32, in <module>\n    unit.show(duration=30,sync_to_movie=True)\n  File \"E:\\Taskbeacon/psyflow-movie135-publish\\psyflow\\StimUnit.py\", line 638, in show\n    return show_synced_movie(self, duration, onset_trigger, offset_trigger)\n  File \"E:\\Taskbeacon/psyflow-movie135-publish\\psyflow\\movie.py\", line 18, in show_synced_movie\n    raise ValueError('sync_to_movie requires noAudio=True and loop=False')\nValueError: sync_to_movie requires noAudio=True and loop=False\n"
+}

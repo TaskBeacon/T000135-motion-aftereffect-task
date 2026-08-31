@@ -1,0 +1,4 @@
+psychopy==2025.2.4
+psyflow @ git+https://github.com/TaskBeacon/psyflow.git@05997f98750d24d0745dd6d3b01105a002f11b5b
+pandas
+PyYAML

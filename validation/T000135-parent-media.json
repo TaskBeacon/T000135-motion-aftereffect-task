@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "left: actual decoded metadata60fps1800frames512square",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe0",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe1",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe2",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe3",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe4",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe5",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe6",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe7",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe8",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe9",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe10",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe11",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe12",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe13",
+      "passed": true
+    },
+    {
+      "name": "left: decoded initialframe14",
+      "passed": true
+    },
+    {
+      "name": "left: independent signed4Hzcarrier phase",
+      "passed": true
+    },
+    {
+      "name": "left: digital modulation approximately0.4",
+      "passed": true
+    },
+    {
+      "name": "left: firstPNG equals actual decode",
+      "passed": true
+    },
+    {
+      "name": "left: lastPNG equals actual decoded1799",
+      "passed": true
+    },
+    {
+      "name": "left: actual container video without audio",
+      "passed": true
+    },
+    {
+      "name": "left: source SHA matches materialaudit",
+      "passed": true
+    },
+    {
+      "name": "right: actual decoded metadata60fps1800frames512square",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe0",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe1",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe2",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe3",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe4",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe5",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe6",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe7",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe8",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe9",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe10",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe11",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe12",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe13",
+      "passed": true
+    },
+    {
+      "name": "right: decoded initialframe14",
+      "passed": true
+    },
+    {
+      "name": "right: independent signed4Hzcarrier phase",
+      "passed": true
+    },
+    {
+      "name": "right: digital modulation approximately0.4",
+      "passed": true
+    },
+    {
+      "name": "right: firstPNG equals actual decode",
+      "passed": true
+    },
+    {
+      "name": "right: lastPNG equals actual decoded1799",
+      "passed": true
+    },
+    {
+      "name": "right: actual container video without audio",
+      "passed": true
+    },
+    {
+      "name": "right: source SHA matches materialaudit",
+      "passed": true
+    }
+  ],
+  "measured": {
+    "left": {
+      "signed_frequency_hz": -4.001317375849898,
+      "mean_digital_modulation": 0.4003652564837649,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 512x512, 471 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+      ],
+      "movie_sha256": "695f9a53664829ae118fd968db9623851c6aa5b412f56496f94cceae85c3147c"
+    },
+    "right": {
+      "signed_frequency_hz": 4.002542056140482,
+      "mean_digital_modulation": 0.40044965466269494,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 512x512, 477 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+      ],
+      "movie_sha256": "0f1f4d5d2a0e501bf077b1ea157b9da5152fd3c72953530d832f70aae35f15bb"
+    }
+  },
+  "scope": "Actual encoded media metadata, first15decoded frames independently fitted signed temporal phase, finaldecodedframe vs staticPNG, no audio stream and SHA. Not actual display playback, photometric contrast, angular calibration or human MAE."
+}

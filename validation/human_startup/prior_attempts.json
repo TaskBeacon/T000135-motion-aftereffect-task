@@ -1,0 +1,5 @@
+{
+  "attempt1": "ImportError QtCore before window; corrected matching Qt backend import",
+  "attempt2": "Actual Qt dialog automation did not return; only own python PID8684 stopped; no pass claimed",
+  "attempt3": "Synthetic identity injection; actual human window,preload,instruction flip checkpoint passed"
+}

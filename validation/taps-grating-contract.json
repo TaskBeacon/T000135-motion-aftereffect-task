@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "cases": [
+    {
+      "case": "positive",
+      "exit_code": 0,
+      "stdout": "[taps-validate] task=E:\\Taskbeacon\\T000135-motion-aftereffect-task contracts=v0.2.0\n+ [PASS] taskbeacon\n+ [PASS] required_files\n+ [PASS] gitignore\n+ [PASS] config_base\n+ [PASS] config_qa\n+ [PASS] config_scripted_sim\n+ [PASS] config_sampler_sim\n+ [PASS] responder_plugin\n+ [PASS] runtime_main\n! [WARN] responder_context\n  - WARN: No recommended phase tokens found (any): ['choice', 'cue', 'decision', 'feedback', 'fixation', 'iti', 'reach', 'response', 'target']; got none\n  suggestion: Include condition/block/task_factors context for richer simulation and audits.\n+ [PASS] readme_meta\n+ [PASS] changelog\n+ [PASS] reference_artifacts\n! [WARN] artifacts\n  - WARN: outputs/qa not found; QA artifact checks skipped.\n  - WARN: outputs/sim not found; sim artifact checks skipped.\n  suggestion: Run representative QA/sim sessions so artifact conventions are exercised.\n[taps-validate] summary: PASS=12 WARN=2 FAIL=0\n",
+      "stderr": ""
+    },
+    {
+      "case": "negative_unknown_type",
+      "exit_code": 1,
+      "stdout": "[taps-validate] task=E:\\Taskbeacon\\tmp\\at135-taps-negative\\T000135-motion-aftereffect-task contracts=v0.2.0\n+ [PASS] taskbeacon\nx [FAIL] required_files\n  - FAIL: Missing required path: assets/\n  - WARN: Missing recommended path: outputs/\n  suggestion: Create missing required files/folders to match the standard task skeleton.\n  suggestion: Add recommended paths for easier operations and artifact management.\n+ [PASS] gitignore\nx [FAIL] config_base\n  - FAIL: stimuli.patch_0.type 'not_a_supported_stimulus' is unsupported. Allowed: ['circle', 'grating', 'image', 'movie', 'polygon', 'rect', 'shape', 'sound', 'text', 'textbox']\n  suggestion: Update config/config.yaml to satisfy required keys and value constraints.\n+ [PASS] config_qa\n+ [PASS] config_scripted_sim\n+ [PASS] config_sampler_sim\n+ [PASS] responder_plugin\n+ [PASS] runtime_main\n! [WARN] responder_context\n  - WARN: No recommended phase tokens found (any): ['choice', 'cue', 'decision', 'feedback', 'fixation', 'iti', 'reach', 'response', 'target']; got none\n  suggestion: Include condition/block/task_factors context for richer simulation and audits.\n+ [PASS] readme_meta\n+ [PASS] changelog\n+ [PASS] reference_artifacts\n! [WARN] artifacts\n  - WARN: outputs/qa not found; QA artifact checks skipped.\n  - WARN: outputs/sim not found; sim artifact checks skipped.\n  suggestion: Run representative QA/sim sessions so artifact conventions are exercised.\n[taps-validate] summary: PASS=10 WARN=2 FAIL=2\n",
+      "stderr": ""
+    }
+  ]
+}

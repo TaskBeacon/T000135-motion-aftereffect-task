@@ -1,0 +1,490 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "qa: balanced four actual rows",
+      "passed": true
+    },
+    {
+      "name": "qa:1: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "qa:1: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "qa:1: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "qa:1: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "qa:1: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "qa:1: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "qa:1: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "qa:1: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "qa:2: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "qa:2: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "qa:2: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "qa:2: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "qa:2: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "qa:2: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "qa:2: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "qa:2: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "qa:3: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "qa:3: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "qa:3: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "qa:3: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "qa:3: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "qa:3: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "qa:3: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "qa:3: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "qa:3: actual diagnostic omission waits its configured budget",
+      "passed": true
+    },
+    {
+      "name": "qa:4: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "qa:4: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "qa:4: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "qa:4: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "qa:4: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "qa:4: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "qa:4: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "qa:4: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "qa: independently reduced right",
+      "passed": true
+    },
+    {
+      "name": "qa: independently reduced left",
+      "passed": true
+    },
+    {
+      "name": "qa: independently reduced summary counts",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim: balanced four actual rows",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:1: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:2: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:3: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim:4: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim: independently reduced right",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim: independently reduced left",
+      "passed": true
+    },
+    {
+      "name": "scripted_sim: independently reduced summary counts",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim: balanced four actual rows",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:1: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:2: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:3: actual diagnostic omission waits its configured budget",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: report semantics including missing vs zero",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: no objective hit or physical calibration claim",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: complete finite monotonic frame observations",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: signed phase from sampled elapsed clock",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: static retains four final phases",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: actual flip-derived timing matches fields",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: independent quality classification including observed invalid",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim:4: chronological trial stages",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim: independently reduced right",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim: independently reduced left",
+      "passed": true
+    },
+    {
+      "name": "sampler_sim: independently reduced summary counts",
+      "passed": true
+    }
+  ],
+  "profiles": [
+    {
+      "profile": "qa",
+      "trials": 4,
+      "motion_ceased_reports": 2,
+      "no_apparent_motion_reports": 1,
+      "missing_reports": 1,
+      "invalid_motion_trials": 0,
+      "actual_adaptation_s": [
+        1.5118507998995483,
+        1.4993638000451028,
+        1.501981999957934,
+        1.4999421001411974
+      ]
+    },
+    {
+      "profile": "scripted_sim",
+      "trials": 4,
+      "motion_ceased_reports": 4,
+      "no_apparent_motion_reports": 0,
+      "missing_reports": 0,
+      "invalid_motion_trials": 0,
+      "actual_adaptation_s": [
+        0.3119452998507768,
+        0.31578870001249015,
+        0.299026699969545,
+        0.3168407999910414
+      ]
+    },
+    {
+      "profile": "sampler_sim",
+      "trials": 4,
+      "motion_ceased_reports": 2,
+      "no_apparent_motion_reports": 1,
+      "missing_reports": 1,
+      "invalid_motion_trials": 1,
+      "actual_adaptation_s": [
+        0.31120199989527464,
+        0.30017159995622933,
+        0.30020130006596446,
+        0.3005472000222653
+      ]
+    }
+  ],
+  "scope": "Twelve actual synthetic native diagnostic trials (QA scaled near1.5s, simulations .3s adaptation); separate quiet native canary validates two full30s exposures. Sampler one late_close invalid trial is retained and excluded, not relabelled successful. No human perception or physical photon timing claim."
+}

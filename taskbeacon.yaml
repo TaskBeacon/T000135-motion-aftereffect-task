@@ -1,0 +1,25 @@
+id: T000135
+slug: motion-aftereffect-task
+title: Motion Aftereffect Task
+acquisition: behavior
+variant: translation-static-test
+license: MIT
+language: Chinese
+canonical: true
+cognitive_domain:
+- perception
+- motion-adaptation
+maturity: smoke_tested
+version:
+  release_tag: v0.1.0
+contracts:
+  taps: v0.2.0
+runtime:
+  profile: psyflow
+  entrypoint: main.py
+evidence:
+- https://doi.org/10.1038/293139a0
+- https://doi.org/10.1016/S0042-6989(98)00329-0
+maintainer:
+- TaskBeacon
+

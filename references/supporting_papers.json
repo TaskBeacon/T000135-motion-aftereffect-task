@@ -1,0 +1,15 @@
+[
+  {
+    "id":"Bex1999",
+    "title":"Enhanced motion aftereffect for complex motions",
+    "authors":["Peter J. Bex","Andrew B. Metha","Walter Makous"],
+    "year":1999,
+    "journal":"Vision Research",
+    "doi_or_url":"https://doi.org/10.1016/S0042-6989(98)00329-0",
+    "citation_count":0,
+    "open_access":true,
+    "is_high_impact":false,
+    "used_for":["operational_protocol","static_MAE_duration","Gaussian_gratings","adaptation_duration"],
+    "notes":"Original Methods/Experiment1 and section3.2 read in author-deposited fulltext transcription. Citation count not verified;0 is unknown sentinel, not evidence of uncited paper. Provided-source mode does not enforce literature-first citation threshold. https://www.researchgate.net/publication/12954675_Enhanced_motion_aftereffect_for_complex_motions ; legacy UCL PDF now404. Source parameters and implementation adaptations distinguished in audit."
+  }
+]

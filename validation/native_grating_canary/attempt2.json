@@ -1,0 +1,8 @@
+{
+  "static": [],
+  "dynamic": [],
+  "physical_calibration": false,
+  "status": "fail",
+  "error": "OSError('screen grab failed')",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\Taskbeacon\\tmp\\at135-native-grating-canary.py\", line 29, in <module>\n    ImageGrab.grab(bbox=(x,y,x+w,y+h)).save(out/f'phase_{phase}_os.png')\n  File \"D:\\Python310\\lib\\site-packages\\PIL\\ImageGrab.py\", line 61, in grab\n    offset, size, data = Image.core.grabscreen_win32(\nOSError: screen grab failed\n"
+}

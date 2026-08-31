@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "name": "phase0: actual1280x800nonblack",
+      "passed": true
+    },
+    {
+      "name": "phase0: independent cos/sinphase within.005cycle",
+      "passed": true
+    },
+    {
+      "name": "phase0: digitalcontrast .4 within.01",
+      "passed": true
+    },
+    {
+      "name": "phase0: pixelmodel residual under1RGB",
+      "passed": false
+    },
+    {
+      "name": "phase0.25: actual1280x800nonblack",
+      "passed": true
+    },
+    {
+      "name": "phase0.25: independent cos/sinphase within.005cycle",
+      "passed": true
+    },
+    {
+      "name": "phase0.25: digitalcontrast .4 within.01",
+      "passed": true
+    },
+    {
+      "name": "phase0.25: pixelmodel residual under1RGB",
+      "passed": false
+    },
+    {
+      "name": "phase0.5: actual1280x800nonblack",
+      "passed": true
+    },
+    {
+      "name": "phase0.5: independent cos/sinphase within.005cycle",
+      "passed": true
+    },
+    {
+      "name": "phase0.5: digitalcontrast .4 within.01",
+      "passed": true
+    },
+    {
+      "name": "phase0.5: pixelmodel residual under1RGB",
+      "passed": false
+    },
+    {
+      "name": "phase0.75: actual1280x800nonblack",
+      "passed": true
+    },
+    {
+      "name": "phase0.75: independent cos/sinphase within.005cycle",
+      "passed": true
+    },
+    {
+      "name": "phase0.75: digitalcontrast .4 within.01",
+      "passed": true
+    },
+    {
+      "name": "phase0.75: pixelmodel residual under1RGB",
+      "passed": false
+    },
+    {
+      "name": "independent Gaussian width via rowenergy .5px",
+      "passed": true
+    },
+    {
+      "name": "two completed directions",
+      "passed": true
+    },
+    {
+      "name": "left: complete finite perframe vectors",
+      "passed": true
+    },
+    {
+      "name": "left: monotonic measured clocks",
+      "passed": true
+    },
+    {
+      "name": "left: all phases follow signed4Hz time",
+      "passed": true
+    },
+    {
+      "name": "left: actualflip slope within.01Hz",
+      "passed": true
+    },
+    {
+      "name": "left: predictions within one refresh of actual",
+      "passed": true
+    },
+    {
+      "name": "left: actualexposure30s within50ms",
+      "passed": true
+    },
+    {
+      "name": "left: no gap over25ms and reportedmax matches",
+      "passed": true
+    },
+    {
+      "name": "left: held actualfinalphase all4gratings",
+      "passed": true
+    },
+    {
+      "name": "left: actualstatic nextrefresh and no lateclose",
+      "passed": true
+    },
+    {
+      "name": "right: complete finite perframe vectors",
+      "passed": true
+    },
+    {
+      "name": "right: monotonic measured clocks",
+      "passed": true
+    },
+    {
+      "name": "right: all phases follow signed4Hz time",
+      "passed": true
+    },
+    {
+      "name": "right: actualflip slope within.01Hz",
+      "passed": true
+    },
+    {
+      "name": "right: predictions within one refresh of actual",
+      "passed": true
+    },
+    {
+      "name": "right: actualexposure30s within50ms",
+      "passed": true
+    },
+    {
+      "name": "right: no gap over25ms and reportedmax matches",
+      "passed": true
+    },
+    {
+      "name": "right: held actualfinalphase all4gratings",
+      "passed": true
+    },
+    {
+      "name": "right: actualstatic nextrefresh and no lateclose",
+      "passed": true
+    }
+  ],
+  "pixel_fits": [
+    {
+      "phase": 0,
+      "estimated_phase": -0.00048233093558787697,
+      "phase_error_cycles": -0.0004823309355878602,
+      "contrast": 0.40107855107293744,
+      "rmse_rgb": 4.5770276307491935,
+      "sha256": "870673f1a1037e1862cc32d642b1372c2a859dcddb94bc2123fab8338993c014"
+    },
+    {
+      "phase": 0.25,
+      "estimated_phase": 0.2495078152940318,
+      "phase_error_cycles": -0.0004921847059682349,
+      "contrast": 0.4009659335883262,
+      "rmse_rgb": 4.5508311022553265,
+      "sha256": "b3e2de2075f2565ffa3f782edd4592f687bf8c0e44ce5fb7295002096be76e6e"
+    },
+    {
+      "phase": 0.5,
+      "estimated_phase": 0.49950910326296,
+      "phase_error_cycles": -0.000490896737040003,
+      "contrast": 0.40087230400627727,
+      "rmse_rgb": 4.574844755816156,
+      "sha256": "dd7a19a2c2e5c428de0c4a784e91ddd88674f6cb718cc6b984d665e56d5ba995"
+    },
+    {
+      "phase": 0.75,
+      "estimated_phase": -0.2504775554780519,
+      "phase_error_cycles": -0.00047755547805183873,
+      "contrast": 0.4009087152037542,
+      "rmse_rgb": 4.588742564396139,
+      "sha256": "563054f5dda227cf6ccad4008a1b56e246f0bc3968386c2c38ece5540762c97a"
+    }
+  ],
+  "sigma_rowenergy_px": 25.588560581850817,
+  "timing": [
+    {
+      "direction": "left",
+      "actual_exposure_s": 30.015868099872023,
+      "max_flip_gap_s": 0.02091150009073317,
+      "actual_flip_phase_slope_hz": -4.00000009297664,
+      "max_prediction_error_ms": 4.376700147986412
+    },
+    {
+      "direction": "right",
+      "actual_exposure_s": 30.01486930018291,
+      "max_flip_gap_s": 0.019094299990683794,
+      "actual_flip_phase_slope_hz": 4.0000004333947,
+      "max_prediction_error_ms": 2.5557002518326044
+    }
+  ],
+  "scope": "ActualGPU back-buffer pixels and native flip clocks from quiet two30s canaries; front-buffer blackcaptures and failedOSscreen grab explicitly not evidence. No photodiode/physicalgeometry/gaze or humanMAE inference. Earlier fixedframe noisyCPU attempt failed and remains archived."
+}

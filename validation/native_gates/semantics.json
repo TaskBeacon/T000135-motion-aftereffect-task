@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "synthetic_only": true,
+  "profiles": {
+    "qa": {
+      "rows": 4,
+      "categories": [
+        "missing",
+        "motion_ceased",
+        "no_apparent_motion"
+      ],
+      "invalid_motion": 0,
+      "trace_sha256": "6de59509c73c745e869ff96c1cdc4c467a0ad2bc14553aea01a54837e072ed53"
+    },
+    "scripted_sim": {
+      "rows": 4,
+      "categories": [
+        "motion_ceased"
+      ],
+      "invalid_motion": 0,
+      "trace_sha256": "1245c83b626bcccbdb2d5d6b205f5b0a36d9af8e130dc303813afe875fa75984"
+    },
+    "sampler_sim": {
+      "rows": 4,
+      "categories": [
+        "missing",
+        "motion_ceased",
+        "no_apparent_motion"
+      ],
+      "invalid_motion": 1,
+      "trace_sha256": "345d4224f4198dcab4570e7b603db9b1b25eb8604b723be132842d1757ddca45"
+    }
+  },
+  "runtime_commit": "05997f98750d24d0745dd6d3b01105a002f11b5b",
+  "taps_commit": "1841dda1cc5d735c3c7a252121cecd5b36a199a9",
+  "notes": [
+    "QA nominal30s was scaled to\u22481.499s at0.05scale; sims used0.3s. These are synthetic software checks.",
+    "Sampler contained one late_close flag; invalid motion was retained and excluded from valid report summary, not hidden.",
+    "Independent full30s/direction canary is recorded separately and passed timing/phase gates."
+  ]
+}
